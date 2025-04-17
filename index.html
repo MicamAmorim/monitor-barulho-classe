@@ -43,6 +43,10 @@
             margin-top: 1rem;
             box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
         }
+        audio {
+            margin-top: 1rem;
+            width: 100%;
+        }
         footer {
             text-align: center;
             margin-top: 3rem;
@@ -71,6 +75,13 @@
         <h2>🖼️ Visual do Aplicativo</h2>
         <p>Abaixo você vê um exemplo da interface do monitor em funcionamento:</p>
         <img class="screenshot" src="print-app.png" alt="Interface do Monitor de Decibéis">
+
+        <h2>🔊 Prévia do Alerta Sonoro</h2>
+        <p>Este é o som que será reproduzido automaticamente quando o barulho da sala ultrapassar o limite configurado:</p>
+        <audio controls>
+            <source src="alert_audio.mp3" type="audio/mpeg">
+            Seu navegador não suporta a reprodução de áudio.
+        </audio>
 
         <h2>🎯 Recursos:</h2>
         <ul>
